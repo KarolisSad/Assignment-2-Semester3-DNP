@@ -12,6 +12,12 @@
 @* { *@
 @*   errorMessage = "Loading..."; *@
 @* } *@
+<!-- TODO check exception -->
+@if (subForums == null)
+{
+  errorMessage = "Loading!";
+}
+
 @if (!subForums.Any())
 {
   errorMessage = "No sub-forums created yet.";
@@ -50,6 +56,9 @@ else
 
 
 @code {
+  
+  //TODO fix header??
+  
   private IEnumerable<Domain.Models.SubForum>? subForums; // Better solution would be not to call pages same as Objects :P
   private string errorMessage = "";
   private string? topic; // For future filtering

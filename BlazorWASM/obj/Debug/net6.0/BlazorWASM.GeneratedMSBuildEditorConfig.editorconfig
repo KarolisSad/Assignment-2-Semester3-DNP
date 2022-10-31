@@ -11,61 +11,61 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorWASM
 build_property.RootNamespace = BlazorWASM
-build_property.ProjectDir = /Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/
+build_property.ProjectDir = C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM
+build_property.MSBuildProjectDirectory = C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/App.razor]
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/Forum.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9ydW0ucmF6b3I=
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Forum.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ydW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIucmF6b3I=
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/SubForumCreation.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3ViRm9ydW1DcmVhdGlvbi5yYXpvcg==
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/SubForumCreation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViRm9ydW1DcmVhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/UIComponents/LoginButton.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVUlDb21wb25lbnRzL0xvZ2luQnV0dG9uLnJhem9y
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/LoginButton.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXExvZ2luQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/UIComponents/PostCreation.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVUlDb21wb25lbnRzL1Bvc3RDcmVhdGlvbi5yYXpvcg==
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/PostCreation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXFBvc3RDcmVhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/_Imports.razor]
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/Main.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFpbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-zxhpx2neux
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-9yprz8ow3g
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/SubForum.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3ViRm9ydW0ucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-whwl78jhxb
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/SubForum.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViRm9ydW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-61ucz96g7m
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Pages/UIComponents/Modal.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVUlDb21wb25lbnRzL01vZGFsLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-aurelpbtcx
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-sp2tgkowl2
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-6v8oqhpdl4
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/BlazorWASM/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-v7u2np63r8
+[C:/Users/jeghe/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

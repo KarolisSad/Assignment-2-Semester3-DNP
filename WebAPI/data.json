@@ -3,6 +3,10 @@
     {
       "Username": "Karolis",
       "Password": "admin"
+    },
+    {
+      "Username": "Christian",
+      "Password": "test"
     }
   ],
   "SubForums": [
@@ -30,6 +34,11 @@
       "SubName": "sub-forum",
       "OwnerUsername": "Karolis",
       "Id": 5
+    },
+    {
+      "SubName": "Helloooo",
+      "OwnerUsername": "Christian",
+      "Id": 6
     }
   ],
   "Posts": [
@@ -72,6 +81,22 @@
       "Title": "titil;e",
       "Body": "BODY",
       "Id": 5
+    },
+    {
+      "SubForumId": 3,
+      "OwnerUsername": "Christian",
+      "Topic": "Forums",
+      "Title": "Hellooo",
+      "Body": "Helloooo hellooooo",
+      "Id": 6
+    },
+    {
+      "SubForumId": 1,
+      "OwnerUsername": "Christian",
+      "Topic": "TestCar",
+      "Title": "TESTTESTTEST",
+      "Body": "Helloooooooooooooooooooooooooooooooooooooooooooooo :-)",
+      "Id": 7
     }
   ]
 }

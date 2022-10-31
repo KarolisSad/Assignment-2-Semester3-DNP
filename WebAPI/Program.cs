@@ -8,6 +8,7 @@ using FileData;
 using FileData.DAOs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,8 @@ builder.Services.AddScoped<ISubForumLogic, SubForumLogic>();
 
 builder.Services.AddScoped<IPostDao, PostFileDao>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
+
+builder.Services.AddScoped<IAuthService, AuthLogic>();
 
 AuthorizationPolicies.AddPolicies(builder.Services); // <-- added
 

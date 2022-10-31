@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj": {}
+    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj": {
+    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj",
-        "packagesPath": "/Users/karolissadeckas/.nuget/packages/",
-        "outputPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/obj/",
+        "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jeghe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/karolissadeckas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jeghe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

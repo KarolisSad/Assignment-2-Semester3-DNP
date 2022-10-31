@@ -1,0 +1,31 @@
+
+.subCentered[b-whwl78jhxb] {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 51px;
+}
+
+/* Centered text */
+.centered[b-whwl78jhxb] {
+    position: absolute;
+    top: 166%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+}
+
+.pageStart[b-whwl78jhxb]{
+    padding-top: 220px;
+}
+.overlayImg[b-whwl78jhxb]{
+    width: 100%; position: absolute; left: 0; top: 54px;
+}
+
+.card-style[b-whwl78jhxb]{
+    width: 40rem;
+    left: 23rem;
+    text-align: center;
+}
+

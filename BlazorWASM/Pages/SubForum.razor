@@ -1,0 +1,98 @@
+@page "/SubForum/{id:int}"
+@using HttpClientInterfaces
+@using WebAPI.Controllers
+@inject NavigationManager pageNav;
+@inject ISubForumService subForumService;
+@using Domain.DTOs
+@using Domain.Models
+@using UIComponents
+@inject IPostService postService;
+
+<h3>SubForum</h3>
+
+@* Image stuff *@
+<img src="images/overlay.jpg" class="overlayImg" alt="Snow">
+    <div class="subCentered">SubForum - @subForumTopic</div>
+<div class="pageStart"></div>
+@* <h2 class="text-center">Cars</h2> *@
+
+@* Sub-Forum holder *@
+<div class="container">
+    
+    
+
+  <div class="text-center pt-5">
+      <button class="mt-5
+" @onclick="@(() => showModal =true)" >Add new post</button>
+        <h2 class="pt-5">Forums</h2>
+    </div>
+
+    @* forums v2 *@
+    
+    @if (!posts.Any())
+    {
+        errorMessage = "No posts yet in this sub-forum!";
+    }
+    else
+    {
+        @foreach (Post post in posts)
+           {
+               <div class="inner-main-body p-2 p-sm-3 collapse forum-content show">
+                   <div class="card mb-2">
+                       <div class="card-body p-2 p-sm-3">
+                           <div class="media forum-item">
+                               <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="mr-3 rounded-circle" width="50" alt="User"/></a>
+                               <div class="media-body">
+                                   <h6><a data-toggle="collapse" data-target=".forum-content" class="text-body">@post.Title</a></h6>
+                                   <p class="text-secondary">
+                                       @post.Body
+                                   </p>
+                                   <button onclick="@(() => pageNav.NavigateTo($"Forum/{post.Id}"))">Read more</button>
+                                   <p class="text-muted"><span class="text-secondary font-weight-bold">18 hours ago</span></p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           } 
+    }
+   
+    
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <p>@errorMessage</p>
+    }
+    
+</div>
+
+<Modal ShowModal="@showModal">
+    <PostCreation Id="@Id" OnChange="@((status)=> showModal = status)"></PostCreation>
+</Modal>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    private string errorMessage = "";
+    public string subForumTopic;
+    private bool showModal = false;
+    private IEnumerable<Post> posts;
+
+    Domain.Models.SubForum? subForum;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            posts = await postService.GetAllPostsBySubPostId(Id);
+    // subForum = await subForumService.GetSubForumById(Id); // Could use DTO in future for editing
+    //  subForumTopic = subForum.SubName;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errorMessage = e.Message;
+        }
+        
+    }
+
+}

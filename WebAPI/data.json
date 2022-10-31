@@ -1,0 +1,77 @@
+{
+  "Users": [
+    {
+      "Username": "Karolis",
+      "Password": "admin"
+    }
+  ],
+  "SubForums": [
+    {
+      "SubName": "Cars",
+      "OwnerUsername": "Karolis",
+      "Id": 1
+    },
+    {
+      "SubName": "Books",
+      "OwnerUsername": "Karolis",
+      "Id": 2
+    },
+    {
+      "SubName": "Phones",
+      "OwnerUsername": "Karolis",
+      "Id": 3
+    },
+    {
+      "SubName": "Math",
+      "OwnerUsername": "Karolis",
+      "Id": 4
+    },
+    {
+      "SubName": "sub-forum",
+      "OwnerUsername": "Karolis",
+      "Id": 5
+    }
+  ],
+  "Posts": [
+    {
+      "SubForumId": 1,
+      "OwnerUsername": "Karolis",
+      "Topic": "CarMod",
+      "Title": "Look at this amazing Car",
+      "Body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u0027s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Id": 1
+    },
+    {
+      "SubForumId": 1,
+      "OwnerUsername": "Karolis",
+      "Topic": "Carmods",
+      "Title": "Top 10 cars in the world",
+      "Body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u0027s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Id": 2
+    },
+    {
+      "SubForumId": 2,
+      "OwnerUsername": "Karolis",
+      "Topic": "Book",
+      "Title": "New book that I love",
+      "Body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u0027s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Id": 3
+    },
+    {
+      "SubForumId": 1,
+      "OwnerUsername": "Karolis",
+      "Topic": "Topic",
+      "Title": "Top 3 cars",
+      "Body": "List of amazing cars",
+      "Id": 4
+    },
+    {
+      "SubForumId": 5,
+      "OwnerUsername": "Karolis",
+      "Topic": "topic",
+      "Title": "titil;e",
+      "Body": "BODY",
+      "Id": 5
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager pageNav;
+
+<div class="page">
+    @* <div class="sidebar"> *@
+    @* </div> *@
+ 
+    <main>
+        <div class="top-row px-4">
+
+            <div class="col-2">
+                <div class="pt-2"></div>
+                <div class="mx-auto"></div>
+                <a onclick="@(() => pageNav.NavigateTo("/"))" class="mx-auto" href=""><h5>ViaReddit</h5></a>
+            </div>
+            <div class="col-2 mx-auto">
+             
+            </div>
+            <div class="col-3 d-inline">
+                <div class="row">
+                    <div class="col-5">   <a onclick="@(()=> pageNav.NavigateTo("/Main"))">Sub-Forums</a></div>
+                <div class="col-3"><a>Login</a></div>
+                <div class="col-4"><a onclick="@(()=> pageNav.NavigateTo("/Register"))">Register</a></div>
+            </div>
+            </div>
+            @* <NavMenu/> *@
+            @*     $1$ <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a> #1# *@
+  
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>

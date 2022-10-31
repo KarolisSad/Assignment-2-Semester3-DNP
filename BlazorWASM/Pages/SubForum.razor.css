@@ -1,0 +1,31 @@
+
+.subCentered {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 51px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 166%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+}
+
+.pageStart{
+    padding-top: 220px;
+}
+.overlayImg{
+    width: 100%; position: absolute; left: 0; top: 54px;
+}
+
+.card-style{
+    width: 40rem;
+    left: 23rem;
+    text-align: center;
+}
+

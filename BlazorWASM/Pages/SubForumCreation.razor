@@ -1,0 +1,61 @@
+@page "/SubForumCreation"
+@using HttpClientInterfaces
+@using Domain.DTOs
+@inject NavigationManager pageNav;
+@inject ISubForumService subForumService;
+
+<h3>SubForumCreation</h3>
+
+<form>
+  <div class="form-group">
+    <label>Sub-Forum owner</label>
+    <input type="text" class="form-control" placeholder="Username" @bind="username">
+  </div>
+  <div class="form-group">
+    <label>Sub-Forum topic</label>
+    <input type="text" class="form-control" @bind="subForum">
+  </div>
+  <div class="form-check">
+  </div>
+  
+  @if (!string.IsNullOrEmpty(errorMessage))
+  {
+    <p>@errorMessage</p>
+  }
+  </form>
+  <button @onclick="Create" class="btn btn-primary">Create</button>
+
+
+@code {
+  private string errorMessage = "";
+  private string username { get; set; }
+  private string subForum { get; set; }
+
+
+  private async void Create()
+  {
+    if (string.IsNullOrEmpty(username))
+    {
+      errorMessage = "Please enter username";
+      return;
+    }
+    if (string.IsNullOrEmpty(subForum))
+    {
+      errorMessage = "Please enter sub-forum name";
+      return;
+    }
+    Console.WriteLine("Creating");
+    try
+    {
+      await subForumService.CreateSubForumAsync(new SubForumCreationDto(subForum, username));
+      pageNav.NavigateTo("/Main");
+    }
+    catch (Exception e)
+    {
+      Console.WriteLine("erro?");
+      Console.WriteLine(e);
+      errorMessage = e.Message;
+    }
+  }
+
+}

@@ -1,0 +1,61 @@
+@page "/Main"
+@using HttpClientInterfaces
+@inject NavigationManager pageNav;
+@inject ISubForumService subForumService;
+
+<div class="container">
+  <h3 class="mx-auto text-center pt-3" style="font-family: Didot; font-size: 41px; margin-top: 2rem">SubForums</h3>
+  <img onclick="@(()=> pageNav.NavigateTo("/SubForumCreation"))" class="align-content-end" src="Icons/icons8-add-64.png" style="padding-left: 615px; padding-top: 4rem;"/>
+      @* <button class="btn btn-outline-secondary" onclick="@(()=> pageNav.NavigateTo("/SubForumCreation"))" style="margin-left: 55rem;">Add new Sub-Forum</button> *@
+</div>
+@* @if (subForums == null) *@
+@* { *@
+@*   errorMessage = "Loading..."; *@
+@* } *@
+@if (!subForums.Any())
+{
+  errorMessage = "No sub-forums created yet.";
+}
+else
+{
+@foreach (var forum in subForums)
+{
+  <div class="pt-3"></div>
+  <div class="card border-0 mb-2 mx-auto m-4" style="width:62rem; height:3rem;">
+    <div class="card-body shadow-lg p-3 mb-5 bg-white rounded" style="padding: 10px;">
+      <div class="card-title">
+        <div class="row">
+          <div class="col-1">
+            <span class="oi oi-list" style="padding: 5px 22px;" aria-hidden="true"></span>
+
+          </div>
+          <div class="col-10 text-center">
+            <a onclick="@(() => { pageNav.NavigateTo($"SubForum/{forum.Id}"); })"> <h4 style="font-family: 'Andale Mono'">@forum.SubName</h4></a>
+          </div>
+          <div class="col-1">
+
+            <button onclick="@(() => { Console.Write("fds"); })">&#x2717;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+}
+}
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+  <p>@errorMessage</p>
+}
+
+
+@code {
+  private IEnumerable<Domain.Models.SubForum>? subForums; // Better solution would be not to call pages same as Objects :P
+  private string errorMessage = "";
+  private string? topic; // For future filtering
+
+  protected override async Task OnInitializedAsync()
+  {
+    subForums = await subForumService.GetAllSubForumsAsync(topic);
+  }
+}

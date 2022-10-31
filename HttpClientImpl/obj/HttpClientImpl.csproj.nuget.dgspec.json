@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/HttpClientImpl.csproj": {}
+  },
+  "projects": {
+    "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj",
+        "packagesPath": "/Users/karolissadeckas/.nuget/packages/",
+        "outputPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karolissadeckas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/HttpClientImpl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/HttpClientImpl.csproj",
+        "projectName": "HttpClientImpl",
+        "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/HttpClientImpl.csproj",
+        "packagesPath": "/Users/karolissadeckas/.nuget/packages/",
+        "outputPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karolissadeckas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/HttpClientInterfaces.csproj": {
+                "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/HttpClientInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/HttpClientInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/HttpClientInterfaces.csproj",
+        "projectName": "HttpClientInterfaces",
+        "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/HttpClientInterfaces.csproj",
+        "packagesPath": "/Users/karolissadeckas/.nuget/packages/",
+        "outputPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karolissadeckas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj": {
+                "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

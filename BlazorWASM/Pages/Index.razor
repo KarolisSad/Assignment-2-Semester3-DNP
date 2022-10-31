@@ -1,0 +1,10 @@
+﻿@page "/"
+@inject NavigationManager pageNav
+
+<PageTitle>Index</PageTitle>
+
+<h1>Welcome to ViaReddit!</h1>
+
+<h3>Let's get started!</h3>
+<p>Explore sub-forums!</p>
+<button onclick="@(()=> pageNav.NavigateTo("/Main"))">Explore!</button>

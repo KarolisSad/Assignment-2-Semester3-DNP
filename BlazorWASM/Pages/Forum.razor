@@ -1,0 +1,65 @@
+@page "/Forum/{id:int}"
+@using HttpClientInterfaces
+@using Domain.Models
+@inject IPostService PostService;
+<h3>Forum</h3>
+
+ @if (post == null)
+    {
+        <label>Loading post...</label>
+    }
+ else
+ {
+     <div class="inner-main-body p-2 p-sm-3 collapse forum-content show">
+         <div class="card mb-2">
+             <div class="card-body p-2 p-sm-3">
+                 <div class="media forum-item">
+                     <h4>User: @username</h4>
+                     <h4>Topic: @topic</h4>
+                     <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="mr-3 rounded-circle" width="50" alt="User"/></a>
+                     <div class="media-body">
+                         <h6><a data-toggle="collapse" data-target=".forum-content" class="text-body">@titile</a></h6>
+                         <p class="text-secondary">
+                             @body
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ }
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private string username;
+    private string topic;
+    private string titile;
+    private string body;
+    private string subForumName;
+
+    private string errorMessage = "";
+    private Post post;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+        post = await  PostService.GetPostById(Id);
+            username = post.OwnerUsername;
+            topic = post.Topic;
+            titile = post.Title;
+            body = post.Body;
+            
+
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errorMessage = e.Message;
+        }
+    }
+
+
+}

@@ -3,6 +3,9 @@
 @inject NavigationManager pageNav;
 @inject ISubForumService subForumService;
 
+<AuthorizeView>
+  <Authorized>
+
 <div class="container">
   <h3 class="mx-auto text-center pt-3" style="font-family: Didot; font-size: 41px; margin-top: 2rem">SubForums</h3>
   <img onclick="@(()=> pageNav.NavigateTo("/SubForumCreation"))" class="align-content-end" src="Icons/icons8-add-64.png" style="padding-left: 615px; padding-top: 4rem;"/>
@@ -46,6 +49,8 @@ else
       </div>
     </div>
   </div>
+      
+  
 }
 }
 
@@ -53,9 +58,12 @@ else
 {
   <p>@errorMessage</p>
 }
+  
+  </Authorized>
+    </AuthorizeView>
 
 
-@code {
+  @code {
   
   //TODO fix header??
   

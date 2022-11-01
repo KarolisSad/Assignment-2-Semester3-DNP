@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o1TqgdBPV+XcZ3jXf3U+lS1ZcF0vNcya8dKbR6dSJJQ=",
+  "Hash": "LbtIer1mnvOvoOHO8DA+5JP2Arsk8cftA7TmDW7oids=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -7342,6 +7342,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\.DS_Store"
+    },
+    {
+      "Identity": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\images\\Login.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/Login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Login.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\images\\Logout.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/Logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Logout.png"
     },
     {
       "Identity": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\images\\overlay.jpg",

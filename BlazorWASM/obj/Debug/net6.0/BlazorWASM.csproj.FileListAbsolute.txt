@@ -2528,3 +2528,4 @@ C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\n
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\refint\BlazorWASM.dll
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\BlazorWASM.pdb
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\ref\BlazorWASM.dll
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\UIComponents\LoginButtons.razor.rz.scp.css

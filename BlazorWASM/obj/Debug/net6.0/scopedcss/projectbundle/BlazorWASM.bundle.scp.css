@@ -31,6 +31,11 @@
     text-align: center;
 }
 
+/* /Pages/UIComponents/LoginButtons.razor.rz.scp.css */
+.icon[b-f5solmxpb3] {
+    width: 30px;
+    cursor: pointer;
+}
 /* /Pages/UIComponents/Modal.razor.rz.scp.css */
 .modal-background[b-aurelpbtcx] { /* This style class makes the background darker, and un-clickable */
     position: fixed; /* Stay in place */

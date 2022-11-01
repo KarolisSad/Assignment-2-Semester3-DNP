@@ -28,6 +28,12 @@ public class UserLogic : IUserLogic
         return createdUser;
     }
 
+    public async Task<User> GetUserByUsername(string username)
+    {
+        User? user = await userDao.getUserByUsername(username);
+        return user;
+    }
+
     private void ValidateData(UserCreationDTO userToCreate)
     {
         if (userToCreate.username.Length<3)

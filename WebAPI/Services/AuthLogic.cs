@@ -1,21 +1,22 @@
 ﻿using Application.DaoInterfaces;
+using Application.ILogicInterfaces;
+using Domain.DTOs;
 using Domain.Models;
-using FileData.DAOs;
 
 namespace WebAPI.Services;
 
 public class AuthLogic : IAuthService
 {
-    private IUserDao userDao;
+    private IUserLogic logic;
 
-    public AuthLogic(IUserDao userDao)
+    public AuthLogic(IUserLogic logic)
     {
-        this.userDao = userDao;
+        this.logic = logic;
     }
 
     public Task<User> ValidateUser(string username, string password)
     {
-        User? user =  userDao.getUserByUsername(username).Result;
+        User? user =  logic.GetUserByUsername(username).Result;
 
         if (user == null)
         {
@@ -42,7 +43,7 @@ public class AuthLogic : IAuthService
             throw new Exception("Password cannot be null");
         }
 
-        userDao.createUser(user);
+        logic.CreateUser(new UserCreationDTO(user.Username, user.Password));
         
         return Task.CompletedTask;
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LbtIer1mnvOvoOHO8DA+5JP2Arsk8cftA7TmDW7oids=",
+  "Hash": "38bt0pU2mhcWG46CAk32qIF12pada7Ng2NBlzoHyPyQ=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -7325,6 +7325,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Icons\\icons8-add-64.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\Icons\\panda.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Icons/panda.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Icons\\panda.png"
     },
     {
       "Identity": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\BlazorWASM\\wwwroot\\images\\.DS_Store",

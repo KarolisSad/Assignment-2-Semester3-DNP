@@ -31,20 +31,20 @@ public class AuthLogic : IAuthService
         return Task.FromResult(user);
     }
 
-    public Task RegisterUser(User user)
+    public Task<User> RegisterUser(UserCreationDTO user)
     {
-        if (string.IsNullOrEmpty(user.Username))
+        if (string.IsNullOrEmpty(user.username))
         {
             throw new Exception("Username cannot be null");
         }
         
-        if (string.IsNullOrEmpty(user.Password))
+        if (string.IsNullOrEmpty(user.password))
         {
             throw new Exception("Password cannot be null");
         }
 
-        logic.CreateUser(new UserCreationDTO(user.Username, user.Password));
+        User created = logic.CreateUser(user).Result;
         
-        return Task.CompletedTask;
+        return Task.FromResult(created);
     }
 }

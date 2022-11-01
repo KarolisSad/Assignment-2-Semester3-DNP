@@ -72,4 +72,19 @@ public class AuthController : ControllerBase
         }
     }
     
+    [HttpPost, Route("register")]
+    public async Task<ActionResult> Register([FromBody] UserCreationDTO userCreationDto)
+    {
+        try
+        {
+            User user = await authService.RegisterUser(userCreationDto);
+            
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
+    }
+    
 }

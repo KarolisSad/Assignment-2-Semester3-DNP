@@ -87,7 +87,7 @@
     try
     {
       await Service.RegisterAsync(new User(username, password));
-      navMgr.NavigateTo("/Main");
+      Login();
     }
     catch (Exception e)
     {

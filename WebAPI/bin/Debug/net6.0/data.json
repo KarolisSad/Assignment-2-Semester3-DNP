@@ -7,6 +7,10 @@
     {
       "Username": "Christian",
       "Password": "test"
+    },
+    {
+      "Username": "NNewRegisterUser",
+      "Password": "test"
     }
   ],
   "SubForums": [

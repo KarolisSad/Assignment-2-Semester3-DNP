@@ -1,12 +1,14 @@
 using Application.ILogicInterfaces;
 using Domain.DTOs;
 using Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class PostController : ControllerBase
 {
     private IPostLogic PostLogic;
@@ -31,7 +33,7 @@ public class PostController : ControllerBase
         }
     }
 
-    [HttpGet ("{id:int}")]
+    [HttpGet ("{id:int}"), AllowAnonymous]
     public async Task<ActionResult<Post>> getPostById([FromRoute] int id)
     {
         try
@@ -46,7 +48,7 @@ public class PostController : ControllerBase
         }
     }
     
-    [HttpGet]
+    [HttpGet, AllowAnonymous]
     public async Task<ActionResult<IEnumerable<Post>>> getAllPosts()
     {
         try

@@ -14,4 +14,23 @@ public class AuthClient : IAuthService
     {
         throw new NotImplementedException();
     }
+
+    /*
+    public Task<User> ValidateUser(string username, string password)
+    {
+        User? user =  userDao.getUserByUsername(username).Result;
+
+        if (user == null)
+        {
+            throw new Exception($"User {username} not found!");
+        }
+
+        if (!(user.Password.Equals(password)))
+        {
+            throw new Exception("Mismatch between username and password!");
+        }
+
+        return Task.FromResult(user);
+    }
+    */
 }

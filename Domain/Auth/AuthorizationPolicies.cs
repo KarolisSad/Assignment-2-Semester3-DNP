@@ -12,8 +12,8 @@ public static class AuthorizationPolicies
         services.AddAuthorizationCore(options =>
         {
             options.AddPolicy("owner", a =>
-                a.RequireAuthenticatedUser().RequireClaim("Owner", "post","subPost"));
-            
+                a.RequireAuthenticatedUser().RequireClaim("Owner", "post", "subPost"));
+
         });
     }
     

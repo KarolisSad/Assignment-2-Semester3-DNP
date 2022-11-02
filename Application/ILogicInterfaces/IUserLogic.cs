@@ -7,4 +7,5 @@ public interface IUserLogic
 {
     
     Task<User> CreateUser(UserCreationDTO userToCreate);
+    Task<User> GetUserByUsername(string username);
 }

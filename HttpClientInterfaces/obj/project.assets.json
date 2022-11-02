@@ -303,19 +303,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/karolissadeckas/.nuget/packages/": {}
+    "C:\\Users\\Nina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/HttpClientInterfaces.csproj",
+      "projectUniqueName": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\HttpClientInterfaces\\HttpClientInterfaces.csproj",
       "projectName": "HttpClientInterfaces",
-      "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/HttpClientInterfaces.csproj",
-      "packagesPath": "/Users/karolissadeckas/.nuget/packages/",
-      "outputPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientInterfaces/obj/",
+      "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\HttpClientInterfaces\\HttpClientInterfaces.csproj",
+      "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\HttpClientInterfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/karolissadeckas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -327,8 +327,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj": {
-              "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj"
+            "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
             }
           }
         }
@@ -358,7 +358,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

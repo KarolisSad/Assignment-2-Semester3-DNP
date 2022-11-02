@@ -322,19 +322,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/karolissadeckas/.nuget/packages/": {}
+    "C:\\Users\\Nina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/FileData/FileData.csproj",
+      "projectUniqueName": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/FileData/FileData.csproj",
-      "packagesPath": "/Users/karolissadeckas/.nuget/packages/",
-      "outputPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/FileData/obj/",
+      "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj",
+      "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/karolissadeckas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -346,11 +346,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Application/Application.csproj": {
-              "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Application/Application.csproj"
+            "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj"
             },
-            "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj": {
-              "projectPath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj"
+            "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
             }
           }
         }
@@ -380,7 +380,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

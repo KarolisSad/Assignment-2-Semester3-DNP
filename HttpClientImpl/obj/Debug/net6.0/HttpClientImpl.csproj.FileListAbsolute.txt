@@ -15,3 +15,37 @@
 /Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/obj/Debug/net6.0/refint/HttpClientImpl.dll
 /Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/obj/Debug/net6.0/HttpClientImpl.pdb
 /Users/karolissadeckas/RiderProjects/DNP Assignment - 1/HttpClientImpl/obj/Debug/net6.0/ref/HttpClientImpl.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientImpl.deps.json
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientImpl.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientImpl.pdb
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\Domain.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientInterfaces.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientInterfaces.pdb
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\Domain.pdb
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.csproj.AssemblyReference.cache
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.AssemblyInfoInputs.cache
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.AssemblyInfo.cs
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.csproj.CoreCompileInputs.cache
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.csproj.CopyComplete
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\refint\HttpClientImpl.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.pdb
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\ref\HttpClientImpl.dll
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientImpl.deps.json
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientImpl.dll
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientImpl.pdb
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\Domain.dll
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientInterfaces.dll
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\HttpClientInterfaces.pdb
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\bin\Debug\net6.0\Domain.pdb
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.csproj.AssemblyReference.cache
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.AssemblyInfoInputs.cache
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.AssemblyInfo.cs
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.csproj.CoreCompileInputs.cache
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.csproj.CopyComplete
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.dll
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\refint\HttpClientImpl.dll
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\HttpClientImpl.pdb
+C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\HttpClientImpl\obj\Debug\net6.0\ref\HttpClientImpl.dll

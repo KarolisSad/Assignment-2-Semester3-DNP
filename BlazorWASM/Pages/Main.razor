@@ -3,21 +3,31 @@
 @inject NavigationManager pageNav;
 @inject ISubForumService subForumService;
 
-<div class="container">
-  <h3 class="mx-auto text-center pt-3" style="font-family: Didot; font-size: 41px; margin-top: 2rem">SubForums</h3>
-  <img onclick="@(()=> pageNav.NavigateTo("/SubForumCreation"))" class="align-content-end" src="Icons/icons8-add-64.png" style="padding-left: 615px; padding-top: 4rem;"/>
+<AuthorizeView>
+  <Authorized>
+
+    <div class="container">
+      <h3 class="mx-auto text-center pt-3" style="font-family: Didot; font-size: 41px; margin-top: 2rem">SubForums</h3>
+      <img onclick="@(()=> pageNav.NavigateTo("/SubForumCreation"))" class="align-content-end" src="Icons/icons8-add-64.png" style="padding-left: 615px; padding-top: 4rem;"/>
       @* <button class="btn btn-outline-secondary" onclick="@(()=> pageNav.NavigateTo("/SubForumCreation"))" style="margin-left: 55rem;">Add new Sub-Forum</button> *@
-</div>
-@* @if (subForums == null) *@
-@* { *@
-@*   errorMessage = "Loading..."; *@
-@* } *@
-@if (!subForums.Any())
-{
-  errorMessage = "No sub-forums created yet.";
-}
-else
-{
+    </div>
+    @* @if (subForums == null) *@
+    @* { *@
+    @*   errorMessage = "Loading..."; *@
+    @* } *@
+    <!-- TODO check exception -->
+    @if (subForums == null)
+    {
+      errorMessage = "Loading!";
+    }
+
+    @if (!subForums.Any())
+    {
+      errorMessage = "No sub-forums created yet.";
+    }
+
+    else
+    {
 @foreach (var forum in subForums)
 {
   <div class="pt-3"></div>
@@ -40,16 +50,30 @@ else
       </div>
     </div>
   </div>
+      
+  
 }
-}
+    }
 
-@if (!string.IsNullOrEmpty(errorMessage))
-{
-  <p>@errorMessage</p>
-}
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+      <p>@errorMessage</p>
+    }
+  
+  </Authorized>
+  
+  <NotAuthorized>
+     <div class="container">
+     <h3 class="mx-auto text-center pt-3" style="font-family: Didot; font-size: 41px; margin-top: 2rem">You have to log in to see the cintent of this page.</h3>
+     </div>
+  </NotAuthorized>
+</AuthorizeView>
 
 
-@code {
+  @code {
+  
+  //TODO fix header??
+  
   private IEnumerable<Domain.Models.SubForum>? subForums; // Better solution would be not to call pages same as Objects :P
   private string errorMessage = "";
   private string? topic; // For future filtering

@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "KaMXxFYE5OcVh8jTKHxDQK4UGKOHDeXIYN8T5paEEWVzJvEaStOVPtjg6DY123fD0qVlcJxHaUoAaxDIVNCmVA==",
+  "dgSpecHash": "h63RQ3Oy4X65i7tm/KX5oG9i/ZouWBF1HuS4aJkkEEW3a/KpTI3Ecxgopqd2cyHZ4fjlOOZe489G6crOSGg6PA==",
   "success": true,
-  "projectFilePath": "/Users/karolissadeckas/RiderProjects/DNP Assignment - 1/Domain/Domain.csproj",
+  "projectFilePath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/karolissadeckas/.nuget/packages/microsoft.aspnetcore.authorization/6.0.10/microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
-    "/Users/karolissadeckas/.nuget/packages/microsoft.aspnetcore.metadata/6.0.10/microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
-    "/Users/karolissadeckas/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "/Users/karolissadeckas/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.2/microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
-    "/Users/karolissadeckas/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "/Users/karolissadeckas/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "/Users/karolissadeckas/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Nina\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
+    "C:\\Users\\Nina\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
+    "C:\\Users\\Nina\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nina\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
+    "C:\\Users\\Nina\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nina\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nina\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -145,10 +145,6 @@ main[b-6v8oqhpdl4] {
     }
 }
 /* /Shared/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-69rflur3ak] {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
 .top-row[b-69rflur3ak] {
     height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
@@ -166,16 +162,9 @@ main[b-6v8oqhpdl4] {
 }
 
 .nav-item[b-69rflur3ak] {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
-}
-
-.nav-item:first-of-type[b-69rflur3ak] {
-    padding-top: 1rem;
-}
-
-.nav-item:last-of-type[b-69rflur3ak] {
-    padding-bottom: 1rem;
+    font-size: 25px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nav-item[b-69rflur3ak]  a {
@@ -206,4 +195,9 @@ main[b-6v8oqhpdl4] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+}
+
+.navbar[b-69rflur3ak]{
+    background-color: plum;
+    color: black;
 }

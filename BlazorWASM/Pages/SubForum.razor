@@ -21,11 +21,12 @@
     
     
 
-  <div class="text-center pt-5">
-      <button class="mt-5
-" @onclick="@(() => showModal =true)" >Add new post</button>
+    <div class="text-center pt-5">
+        <button class="mt-5" @onclick="@(() => showModal =true)">Add new post</button>
         <h2 class="pt-5">Forums</h2>
     </div>
+    
+    
 
     @* forums v2 *@
     
@@ -65,6 +66,7 @@
 <Modal ShowModal="@showModal">
     <PostCreation Id="@Id" OnChange="@((status)=> showModal = status)"></PostCreation>
 </Modal>
+
 
 @code {
     [Parameter]

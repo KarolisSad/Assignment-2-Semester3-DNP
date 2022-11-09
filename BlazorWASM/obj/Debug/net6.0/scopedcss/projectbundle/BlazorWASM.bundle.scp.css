@@ -37,8 +37,8 @@
     cursor: pointer;
 }
 /* /Pages/UIComponents/Modal.razor.rz.scp.css */
-.modal-background[b-aurelpbtcx] { /* This style class makes the background darker, and un-clickable */
-    position: fixed; /* Stay in place */
+.modal-background[b-sp2tgkowl2] { /* This style class makes the background darker, and un-clickable */
+   position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
@@ -51,7 +51,7 @@
 }
 
 /* Modal Content/Box */
-.modal-box[b-aurelpbtcx] {
+.modal-box[b-sp2tgkowl2] {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;

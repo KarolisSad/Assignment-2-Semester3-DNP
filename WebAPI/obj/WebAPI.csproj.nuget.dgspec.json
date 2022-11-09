@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
+    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\obj\\",
+        "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\jeghe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jeghe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
+              "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
               }
             }
           }
@@ -57,21 +57,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
+    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jeghe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jeghe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -116,21 +116,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj": {
+    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj",
+        "projectUniqueName": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj",
         "projectName": "FileData",
-        "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj",
-        "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\obj\\",
+        "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj",
+        "packagesPath": "C:\\Users\\jeghe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\FileData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jeghe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -142,11 +142,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj"
+              "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj"
               },
-              "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
+              "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
               }
             }
           }
@@ -176,21 +176,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\jeghe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jeghe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -202,11 +202,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\Application.csproj"
+              "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj"
               },
-              "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj"
+              "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj": {
+                "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\FileData\\FileData.csproj"
               }
             }
           }
@@ -249,7 +249,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

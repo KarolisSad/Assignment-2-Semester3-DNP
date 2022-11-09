@@ -1,5 +1,5 @@
 .modal-background { /* This style class makes the background darker, and un-clickable */
-    position: fixed; /* Stay in place */
+   position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;

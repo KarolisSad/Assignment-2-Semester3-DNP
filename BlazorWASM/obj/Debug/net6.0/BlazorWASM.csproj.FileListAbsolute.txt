@@ -1463,7 +1463,6 @@ C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net
 C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\BlazorWASM.csproj.CoreCompileInputs.cache
 C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\BlazorWASM.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\FDXq7lFG.gz
-C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\pL9MsYUi.gz
 C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\gf0H6+e5.gz
 C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\uPVjrjcx.gz
 C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\So+HSxqN.gz
@@ -2529,3 +2528,9 @@ C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\n
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\WESNmwnt.gz
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\oY2B9n6S.gz
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\Z9c9T+BF.gz
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\+wEoejFf.gz
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\build-gz\pWiwCgVK.gz
+C:\Users\jeghe\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\UIComponents\LoginButtons.razor.rz.scp.css

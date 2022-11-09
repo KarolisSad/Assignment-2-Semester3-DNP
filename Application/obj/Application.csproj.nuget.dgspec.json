@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {}
+    "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
+    "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\jeghe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jeghe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
+              "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj"
               }
             }
           }
@@ -57,26 +59,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
+    "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\jeghe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeghe\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Christian\\RiderProjects\\Assignment-2-Semester3-DNP\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jeghe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -116,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

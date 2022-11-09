@@ -18,7 +18,7 @@ public class PostController : ControllerBase
         PostLogic = postLogic;
     }
 
-    [HttpPost]
+    [HttpPost, AllowAnonymous]
     public async Task<ActionResult<Post>> createPost(PostCreationDto dto)
     {
         try

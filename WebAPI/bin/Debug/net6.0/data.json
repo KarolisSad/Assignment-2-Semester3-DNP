@@ -19,6 +19,10 @@
     {
       "Username": "NewUser",
       "Password": "password"
+    },
+    {
+      "Username": "Chr",
+      "Password": "chr"
     }
   ],
   "SubForums": [
@@ -51,6 +55,11 @@
       "SubName": "Helloooo",
       "OwnerUsername": "Christian",
       "Id": 6
+    },
+    {
+      "SubName": "Testttt",
+      "OwnerUsername": "Karolis",
+      "Id": 7
     }
   ],
   "Posts": [

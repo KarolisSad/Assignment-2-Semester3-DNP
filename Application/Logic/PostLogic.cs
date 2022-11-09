@@ -34,6 +34,9 @@ public class PostLogic : IPostLogic
         {
             throw new Exception($"Forum with id: {dto.SubForumId} doesn't exist.");
         }
+        
+        
+        
         Post createdPost = await PostDao.createPost(dto);
         return createdPost;
     }

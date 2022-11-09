@@ -5,6 +5,7 @@
 @using Domain.DTOs
 @using Domain.Models
 @using System.Security.Claims
+@using BlazorWASM.Services.Http
 @inject IPostService postCreation;
 @inject ISubForumService subForumService;
 
@@ -43,18 +44,18 @@
 
     [Parameter]
     public int Id { get; set; }
-  
-    [Parameter]
+
+  [Parameter]
+  public string Topic { get; set; }
+
+  [Parameter]
     public EventCallback<bool> OnChange { set; get; }
   
   [CascadingParameter]
   public Task<AuthenticationState> AuthState { get; set; } = null!;
-  
-  
-  
-  
-  
-  
+
+
+
 
   private string username;
   private string topic;
@@ -69,9 +70,10 @@
     ClaimsPrincipal user = authState.User;
     username = user.Identity!.Name!;
 
-    SubForum subForum = await subForumService.GetSubForumById(Id);
-    Console.WriteLine("TEST " + subForum.SubName);
-    topic = subForum.SubName;
+    topic = Topic;
+
+    string token = JwtAuthService.Jwt;
+
   }
 
 
@@ -83,7 +85,8 @@
       {
         throw new Exception("Please enter all values.");
       }
-
+      
+      
       Post post = await postCreation.CreatePost(new PostCreationDto(Id, username, topic, title,body));
       pageNav.NavigateTo($"/Forum/{post.Id}");
     }

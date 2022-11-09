@@ -20,14 +20,17 @@
     {
       errorMessage = "Loading!";
     }
-
-    @if (!subForums.Any())
-    {
-      errorMessage = "No sub-forums created yet.";
-    }
-
     else
     {
+      errorMessage = "";
+    }
+    @if (subForums != null&& !subForums.Any())
+    {
+      errorMessage = "No sub forums created yet";
+    }
+    else
+    {
+      @if(subForums != null)
 @foreach (var forum in subForums)
 {
   <div class="pt-3"></div>

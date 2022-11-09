@@ -29,11 +29,8 @@
 
     @* forums v2 *@
     
-    @if (!posts.Any())
-    {
-        errorMessage = "No posts yet in this sub-forum!";
-    }
-    else
+    
+    @if(posts != null)
     {
         @foreach (Post post in posts)
            {

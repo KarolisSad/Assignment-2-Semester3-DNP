@@ -177,12 +177,12 @@ main[b-6v8oqhpdl4] {
 }
 
 .nav-item[b-69rflur3ak]  a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color:cornflowerblue;
     color: white;
 }
 
 .nav-item[b-69rflur3ak]  a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: cornflowerblue;
     color: white;
 }
 
@@ -198,6 +198,6 @@ main[b-6v8oqhpdl4] {
 }
 
 .navbar[b-69rflur3ak]{
-    background-color: plum;
+    background-color: cornflowerblue;
     color: black;
 }

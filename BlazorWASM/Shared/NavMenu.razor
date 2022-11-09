@@ -1,22 +1,20 @@
 ﻿@inherits LayoutComponentBase
 @using BlazorWasm.Pages.UIComponents
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<nav class="navbar fixed-top navbar-expand-sm navbar-light">
   <div class="container-fluid">
-      <a class="navbar-brand px-3" href="Main">
-        <img src="Icons/panda.png" alt="Panda logo" style="width:40px;" class="rounded-pill"> 
-        </a>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ">
-          <li class="nav-item px-3">
+    <a class="navbar-brand px-5" href="Main">
+      <img src="Icons/panda.png" alt="Panda logo" style="width:45px;" class="rounded-pill"> 
+    </a>
+    <ul class="navbar-nav">
+          <li class="nav-item px-5">
             <a class="nav-link" href="Register"><LoginButtons/></a>
           </li>
-          <li class="nav-item px-3" >
-            <a class="nav-link" href="Main">Forums</a>
+          <li class="nav-item px-5" >
+            <a class="nav-link" href="Main" >Forums</a>
           </li>
         </ul>
       </div>
-    </div>
 </nav>
 
 

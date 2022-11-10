@@ -18,7 +18,7 @@ public class PostHttpClient : IPostService
     public async Task<Post> CreatePost(PostCreationDto dto)
     {
         HttpResponseMessage response = await httpClient.PostAsJsonAsync("/post",dto);
-            string message = await response.Content.ReadAsStringAsync();
+        string message = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(message);

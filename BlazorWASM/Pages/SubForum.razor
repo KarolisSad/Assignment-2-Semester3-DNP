@@ -64,7 +64,7 @@
 </div>
 
 <Modal ShowModal="@showModal">
-    <PostCreation Id="@Id" OnChange="@((status)=> showModal = status)"></PostCreation>
+    <PostCreation Id="@Id" Topic ="@subForumTopic" OnChange="@((status)=> showModal = status)"></PostCreation>
 </Modal>
 
 
@@ -80,6 +80,10 @@
 
     protected override async Task OnInitializedAsync()
     {
+
+        subForum  = await subForumService.GetSubForumById(Id);
+        subForumTopic = subForum.SubName;
+
         try
         {
             posts = await postService.GetAllPostsBySubPostId(Id);

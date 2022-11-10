@@ -19,6 +19,10 @@
     {
       "Username": "NewUser",
       "Password": "password"
+    },
+    {
+      "Username": "Chr",
+      "Password": "chr"
     }
   ],
   "SubForums": [
@@ -51,6 +55,11 @@
       "SubName": "Helloooo",
       "OwnerUsername": "Christian",
       "Id": 6
+    },
+    {
+      "SubName": "Testttt",
+      "OwnerUsername": "Karolis",
+      "Id": 7
     }
   ],
   "Posts": [
@@ -109,6 +118,14 @@
       "Title": "TESTTESTTEST",
       "Body": "Helloooooooooooooooooooooooooooooooooooooooooooooo :-)",
       "Id": 7
+    },
+    {
+      "SubForumId": 4,
+      "OwnerUsername": "Karolis",
+      "Topic": "Math",
+      "Title": "I like math",
+      "Body": "I really do",
+      "Id": 8
     }
   ]
 }

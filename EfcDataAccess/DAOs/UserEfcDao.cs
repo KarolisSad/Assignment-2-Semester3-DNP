@@ -8,7 +8,7 @@ using Domain.Models;
 public class UserEfcDao : IUserDao
 {
 
-    public readonly Context context;
+    private readonly Context context;
 
     public UserEfcDao(Context context)
     {

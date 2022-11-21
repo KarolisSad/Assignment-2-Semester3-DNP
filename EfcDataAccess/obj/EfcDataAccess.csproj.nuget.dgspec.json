@@ -13,9 +13,15 @@
         "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
@@ -64,9 +70,15 @@
         "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
@@ -117,9 +129,15 @@
         "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nina\\Documents\\GitHub\\Assignment-2-Semester3-DNP\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",

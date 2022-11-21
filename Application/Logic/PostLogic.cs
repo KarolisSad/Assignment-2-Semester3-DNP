@@ -29,7 +29,7 @@ public class PostLogic : IPostLogic
             throw new Exception($"User with username: {dto.OwnerUsername} doesn't exist.");
         }
         // To check if SubForum exists
-        SubForum? forumExisting = SubForumDao.getSubForumById(dto.SubForumId);
+        SubForum? forumExisting = await SubForumDao.getSubForumById(dto.SubForumId);
         if (forumExisting == null)
         {
             throw new Exception($"Forum with id: {dto.SubForumId} doesn't exist.");

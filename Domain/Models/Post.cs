@@ -8,7 +8,6 @@ public class Post
     public string Topic { set; get; }
     public string Title { set; get; }
     public string Body { set; get; }
-    [Key]
     public int Id { set; get; }
 
     public Post(int subForumId, string ownerUsername, string topic, string title, string body, int id)
@@ -28,5 +27,9 @@ public class Post
         Topic = topic;
         Title = title;
         Body = body;
+    }
+
+    public Post()
+    {
     }
 }

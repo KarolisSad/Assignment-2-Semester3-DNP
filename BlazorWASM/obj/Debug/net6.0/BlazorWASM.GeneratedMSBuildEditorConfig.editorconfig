@@ -11,61 +11,61 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorWASM
 build_property.RootNamespace = BlazorWASM
-build_property.ProjectDir = C:\Users\Christian\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM\
+build_property.ProjectDir = C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Christian\RiderProjects\Assignment-2-Semester3-DNP\BlazorWASM
+build_property.MSBuildProjectDirectory = C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/App.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Forum.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Forum.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ydW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Index.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Register.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/SubForumCreation.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/SubForumCreation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViRm9ydW1DcmVhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/PostCreation.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/PostCreation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXFBvc3RDcmVhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/_Imports.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Main.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/Main.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-9yprz8ow3g
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/SubForum.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/SubForum.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3ViRm9ydW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-61ucz96g7m
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/LoginButtons.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/LoginButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXExvZ2luQnV0dG9ucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-f5solmxpb3
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/Modal.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Pages/UIComponents/Modal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXE1vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-sp2tgkowl2
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Shared/MainLayout.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[C:/Users/Christian/RiderProjects/Assignment-2-Semester3-DNP/BlazorWASM/Shared/NavMenu.razor]
+[C:/Users/Nina/Documents/GitHub/Assignment-2-Semester3-DNP/BlazorWASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

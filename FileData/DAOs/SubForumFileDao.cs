@@ -29,10 +29,10 @@ public class SubForumFileDao : ISubForumDao
         return Task.FromResult(subForum);
     }
 
-    public SubForum getSubForumById(int dtoSubForumId)
+    public Task<SubForum> getSubForumById(int dtoSubForumId)
     {
         SubForum? subForum = context.SubForums.FirstOrDefault(s => s.Id.Equals(dtoSubForumId));
-        return subForum;
+        return Task.FromResult(subForum);
     }
 
     public Task<IEnumerable<SubForum>> getSubTopics(SearchSubForumDto dto)

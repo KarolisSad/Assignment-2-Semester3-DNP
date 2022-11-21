@@ -6,6 +6,6 @@ namespace Application.DaoInterfaces;
 public interface ISubForumDao
 {
     Task<SubForum> createSubForum(SubForum subForum);
-    SubForum getSubForumById(int dtoSubForumId);
+    Task<SubForum> getSubForumById(int dtoSubForumId);
     Task<IEnumerable<SubForum>> getSubTopics(SearchSubForumDto dto);
 }

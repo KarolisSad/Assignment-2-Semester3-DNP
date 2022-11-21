@@ -1,7 +1,9 @@
 namespace Domain.Models;
+using System.ComponentModel.DataAnnotations;
 
 public class User
 {
+    [Key]
     public String Username { get; set; }
     public String Password { get; set; }
 

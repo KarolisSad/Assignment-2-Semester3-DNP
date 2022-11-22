@@ -17,3 +17,22 @@ C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debu
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.pdb
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.genruntimeconfig.cache
 C:\Users\Nina\Documents\GitHub\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\ref\EfcDataAccess.dll
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.deps.json
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.runtimeconfig.json
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.dll
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.pdb
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\Application.dll
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\Domain.dll
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\Application.pdb
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\bin\Debug\net6.0\Domain.pdb
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.AssemblyReference.cache
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfoInputs.cache
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfo.cs
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CopyComplete
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.dll
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\refint\EfcDataAccess.dll
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.pdb
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.genruntimeconfig.cache
+C:\Users\jeghe\Desktop\Studie\Semester 3\SDJ3\Code\Assignment-2-Semester3-DNP\EfcDataAccess\obj\Debug\net6.0\ref\EfcDataAccess.dll

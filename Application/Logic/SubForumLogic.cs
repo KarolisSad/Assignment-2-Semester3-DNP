@@ -38,7 +38,7 @@ public class SubForumLogic : ISubForumLogic
 
     public async Task<SubForum> GetSubForumById(int id)
     {
-        SubForum? subForum = subForumDao.getSubForumById(id);
+        SubForum? subForum = await subForumDao.getSubForumById(id);
         if (subForum == null)
         {
             throw new Exception($"Sub forum with ID: {id} doesn't exist");

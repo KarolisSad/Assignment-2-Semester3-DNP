@@ -1,7 +1,6 @@
 using Application.ILogicInterfaces;
 using Domain.DTOs;
 using Domain.Models;
-using FileData.DAOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;

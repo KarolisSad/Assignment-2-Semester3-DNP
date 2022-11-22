@@ -1,4 +1,5 @@
 namespace Domain.Models;
+using System.ComponentModel.DataAnnotations;
 
 public class Post
 {
@@ -17,5 +18,18 @@ public class Post
         Title = title;
         Body = body;
         Id = id;
+    }
+    
+    public Post(int subForumId, string ownerUsername, string topic, string title, string body)
+    {
+        SubForumId = subForumId;
+        OwnerUsername = ownerUsername;
+        Topic = topic;
+        Title = title;
+        Body = body;
+    }
+
+    public Post()
+    {
     }
 }

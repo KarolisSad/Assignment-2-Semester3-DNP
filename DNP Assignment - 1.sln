@@ -6,13 +6,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{72530D61-AE38-42E5-A596-005330DC1EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{F1FDFA2A-BAA5-4A48-8B44-CB6F7585306D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWASM", "BlazorWASM\BlazorWASM.csproj", "{3C08EA02-5F96-43F7-88AC-FD3477E410B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientInterfaces", "HttpClientInterfaces\HttpClientInterfaces.csproj", "{A4A15F4E-9B70-4E4E-8122-C37A0DE61D7E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientImpl", "HttpClientImpl\HttpClientImpl.csproj", "{29ADA7D8-809F-4508-893E-175E40195103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfcDataAccess", "EfcDataAccess\EfcDataAccess.csproj", "{E8315CA1-7EA5-49AA-BFC5-15B0336796C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,10 +32,6 @@ Global
 		{72530D61-AE38-42E5-A596-005330DC1EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72530D61-AE38-42E5-A596-005330DC1EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72530D61-AE38-42E5-A596-005330DC1EE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1FDFA2A-BAA5-4A48-8B44-CB6F7585306D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1FDFA2A-BAA5-4A48-8B44-CB6F7585306D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1FDFA2A-BAA5-4A48-8B44-CB6F7585306D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1FDFA2A-BAA5-4A48-8B44-CB6F7585306D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C08EA02-5F96-43F7-88AC-FD3477E410B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C08EA02-5F96-43F7-88AC-FD3477E410B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C08EA02-5F96-43F7-88AC-FD3477E410B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,5 +44,9 @@ Global
 		{29ADA7D8-809F-4508-893E-175E40195103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29ADA7D8-809F-4508-893E-175E40195103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29ADA7D8-809F-4508-893E-175E40195103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8315CA1-7EA5-49AA-BFC5-15B0336796C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8315CA1-7EA5-49AA-BFC5-15B0336796C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8315CA1-7EA5-49AA-BFC5-15B0336796C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8315CA1-7EA5-49AA-BFC5-15B0336796C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

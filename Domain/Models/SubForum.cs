@@ -1,4 +1,5 @@
 namespace Domain.Models;
+using System.ComponentModel.DataAnnotations;
 
 public class SubForum
 {
@@ -10,5 +11,9 @@ public class SubForum
     {
         SubName = subName;
         OwnerUsername = ownerUsername;
+    }
+
+    public SubForum()
+    {
     }
 }

@@ -4,8 +4,8 @@ using Application.ILogicInterfaces;
 using Application.Logic;
 using Domain.Auth;
 using Domain.Models;
-using FileData;
-using FileData.DAOs;
+using EfcDataAccess;
+using EfcDataAccess.DAOs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using WebAPI.Services;
@@ -19,19 +19,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<FileContext>();
-builder.Services.AddScoped<IUserDao, UserFileDao>();
+builder.Services.AddScoped<IUserDao, UserEfcDao>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
 
-builder.Services.AddScoped<ISubForumDao, SubForumFileDao>();
+builder.Services.AddScoped<ISubForumDao, SubForumEfcDao>();
 builder.Services.AddScoped<ISubForumLogic, SubForumLogic>();
 
-builder.Services.AddScoped<IPostDao, PostFileDao>();
+builder.Services.AddScoped<IPostDao, PostEfcDao>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
 
 builder.Services.AddScoped<IAuthService, AuthLogic>();
 
 AuthorizationPolicies.AddPolicies(builder.Services); // <-- added
+
+//database stuff
+builder.Services.AddDbContext<Context>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
